@@ -26,7 +26,7 @@ gem 'react-rails', '~> 1.0'
 
 
 gem 'simplecov', :require => false, :group => :test
-gem 'devise'
+gem 'devise', '>= 4.7.1'
 
 gem 'dotenv-rails', :groups => [:development, :test]
 
