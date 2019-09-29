@@ -38,7 +38,7 @@ group :development, :test do
   gem 'capybara'
   gem 'shoulda-matchers'
   gem 'factory_girl_rails'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '>= 2.46.2'
   gem "chromedriver-helper"
   gem 'database_cleaner'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
